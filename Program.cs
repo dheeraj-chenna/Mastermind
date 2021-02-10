@@ -30,7 +30,7 @@ namespace PlayerProgramApp
 
             #region User Input Combination
             string userInput = Console.ReadLine();
-            #endregion Generate Number
+            #endregion 
 
             #region Run the Game
             string output = string.Empty;
@@ -51,7 +51,6 @@ namespace PlayerProgramApp
                         }
                         else
                         {
-                            //Console.WriteLine("Your Result: Failed" + output);
                             Console.WriteLine("Try once Again or Press E to exit the game");
                             userInput = Console.ReadLine();
                         }
