@@ -20,7 +20,6 @@ function PlayerProgram()
                     userInput = "E";
                 }
                 else {
-                    console.log("Your Result: Failed" + output);
                     console.log("Try once Again or Press E to exit the game");
                     userInput = TakeUserInput();
                 }
